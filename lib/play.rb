@@ -40,7 +40,7 @@ end
 def play(board)
     round = 0
     until round == 9
+      turn(board)
       round += 1
-    turn(board)
     end
 end
